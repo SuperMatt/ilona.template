@@ -101,14 +101,9 @@ $templatedirectory = get_template_directory_uri();
   </head>
   <body>
     <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h1 class="title"><?php bloginfo('name'); ?></h1>
-        </div>
-      </div>
       <div class="row navigation">
         <div class="col-sm-3">
-          <p><?php bloginfo('description');?></p>
+          <p><?php bloginfo('name');?></p>
         </div>
         <div class="col-sm-9 hidden-sm hidden-md hidden-lg">
         <?php
