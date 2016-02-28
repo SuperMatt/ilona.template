@@ -102,15 +102,15 @@ $templatedirectory = get_template_directory_uri();
   <body>
     <div class="container">
       <div class="row navigation">
-        <div class="col-sm-3">
+        <div class="col-sm-4">
           <h1 class="title"><?php bloginfo('name');?></h1>
         </div>
-        <div class="col-sm-9 hidden-sm hidden-md hidden-lg">
+        <div class="col-sm-8 hidden-sm hidden-md hidden-lg">
         <?php
             wp_nav_menu( array( 'theme_location' => 'header-menu', 'menu_class' => 'list list-inline' ) );
         ?>
         </div>
-        <div class="col-sm-9 text-right hidden-xs">
+        <div class="col-sm-8 text-right hidden-xs">
         <?php
             wp_nav_menu( array( 'theme_location' => 'header-menu', 'menu_class' => 'list list-inline' ) );
         ?>
