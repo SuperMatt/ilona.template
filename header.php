@@ -93,6 +93,7 @@ $templatedirectory = get_template_directory_uri();
       .footer {
         text-align: center;
         font-size: 8pt;
+        margin-top: 30px;
       }
 
 
