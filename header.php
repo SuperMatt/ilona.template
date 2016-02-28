@@ -23,6 +23,7 @@ $templatedirectory = get_template_directory_uri();
         font-family: "Playfair Display", serif;
       }
       h1.title {
+        font-size: 36pt;
         color: #333;
         font-variant: small-caps;
         font-weight: 400;
