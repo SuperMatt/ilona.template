@@ -87,7 +87,7 @@ $templatedirectory = get_template_directory_uri();
       }
 
       .navigation {
-        height: 50px;
+        height: 60px;
       }
 
       .footer {
@@ -96,21 +96,28 @@ $templatedirectory = get_template_directory_uri();
         margin-top: 30px;
       }
 
+      .titlesize {
+        height: 60px;
+        vertical-align: text-bottom;
+        position: relative;
+        margin-top: 48px;
+      }
+
 
     </style>
   </head>
   <body>
     <div class="container">
       <div class="row navigation">
-        <div class="col-sm-4">
-          <h1 class="title"><?php bloginfo('name');?></h1>
+        <div class="col-sm-12 hidden-xs">
+          <div class="pull-left"><h1 class="title"><?php bloginfo('name');?></h1></div>
+          <div class="pull-right titlesize"><?php wp_nav_menu( array( 'theme_location' => 'header-menu', 'menu_class' => 'list list-inline' ) ); ?></div>
         </div>
-        <div class="col-sm-8 hidden-sm hidden-md hidden-lg">
-        <?php
-            wp_nav_menu( array( 'theme_location' => 'header-menu', 'menu_class' => 'list list-inline' ) );
-        ?>
+
+        <div class="col-sm-12 hidden-sm hidden-md hidden-lg">
+            <h1 class="title"><?php bloginfo('name');?>
         </div>
-        <div class="col-sm-8 text-right hidden-xs">
+        <div class="col-sm-12 hidden-sm hidden-md hidden-lg">
         <?php
             wp_nav_menu( array( 'theme_location' => 'header-menu', 'menu_class' => 'list list-inline' ) );
         ?>
