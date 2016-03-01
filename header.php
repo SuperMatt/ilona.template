@@ -104,9 +104,8 @@ $templatedirectory = get_template_directory_uri();
       }
 
       .igallery img {
-        width:100%;
+        max-width: 100%;
         height: auto;
-        display: block;
       }
 
 
