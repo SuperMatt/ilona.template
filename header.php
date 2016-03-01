@@ -108,6 +108,10 @@ $templatedirectory = get_template_directory_uri();
         height: auto;
       }
 
+      .wp-caption {
+        max-width: 100%
+      }
+
 
     </style>
   </head>
