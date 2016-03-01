@@ -103,10 +103,10 @@ $templatedirectory = get_template_directory_uri();
         margin-top: 48px;
       }
 
-      .igallery img {
+      /*.igallery img {
         width:100%;
         height: auto;
-      }
+      }*/
 
 
     </style>
