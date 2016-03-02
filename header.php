@@ -133,24 +133,25 @@ $templatedirectory = get_template_directory_uri();
         opacity: 1;
       }
 
-      .col-sm-4 .wp-caption {
+      .overlay {
         max-width: 100%;
-        opacity: 1;
-        z-index: 1;
       }
 
-      .col-sm-4 .wp-caption:hover {
-        z-index: -1;
-      }
 
-      .col-sm-4 .wp-caption .wp-caption-text {
+      .overlay .wp-caption .wp-caption-text {
         position: absolute;
         top: 0;
         background-color: rgba(178,223,219,0.9);
+        opacity: 0;
         color: #FFF;
-        z-index: 0;
+      }
 
-
+      .overlay .wp-caption .wp-caption-text:hover {
+        position: absolute;
+        top: 0;
+        background-color: rgba(178,223,219,0.9);
+        opacity: 1;
+        color: #FFF;
       }
 
 
