@@ -5,13 +5,13 @@
     get_header();
 ?>
       <div class="row main">
-      <div class="col-sm4">
+      <div class="col-sm-4">
         <?php the_field('col1'); ?>
       </div>
-      <div class="col-sm4">
+      <div class="col-sm-4">
         <?php the_field('col1'); ?>
       </div>
-      <div class="col-sm4">
+      <div class="col-sm-4">
         <?php the_field('col1'); ?>
       </div>
 <?php
