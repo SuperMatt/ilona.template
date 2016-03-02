@@ -34,7 +34,9 @@
 $( document ).ready(function() {
     $( ".wp-caption" ).each(function() {
         link = $( this ).find('a').attr('href');
-        alert(link);
+
+        caption = $( this ).find('.wp-content-text').html();
+        alert(caption)
     });
 });
 
