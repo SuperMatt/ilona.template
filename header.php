@@ -115,9 +115,9 @@ $templatedirectory = get_template_directory_uri();
       .igallery .wp-caption .wp-caption-text {
         position: absolute;
         top: 0px;
-        max-height: 100%;
-        max-width: 100%;
-        background-color: #b2dfdb;
+        height: 100%;
+        width: calc(100% - 30px);
+        background-color: rgb(178,22,219,0.5);
         opacity: 0;
         left: 0px;
       }
