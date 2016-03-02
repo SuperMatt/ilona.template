@@ -150,6 +150,7 @@ $templatedirectory = get_template_directory_uri();
         font-size: 32px;
         text-align: center;
         font-weight: bold;
+        pointer-events: none;
       }
 
       .col-sm-4 .wp-caption .wp-caption-text:hover {
