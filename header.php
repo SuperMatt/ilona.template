@@ -113,7 +113,7 @@ $templatedirectory = get_template_directory_uri();
         max-width: calc(100% / 3);
       }
 
-      .igallery a .wp-caption .wp-caption-text {
+      .igallery .wp-caption a .wp-caption-text {
         position: absolute;
         top: 0px;
         height: 100%;
@@ -130,7 +130,7 @@ $templatedirectory = get_template_directory_uri();
         font-family: "Muli"
       }
 
-      .igallery a .wp-caption .wp-caption-text:hover {
+      .igallery .wp-caption a .wp-caption-text:hover {
         opacity: 1;
       }
 
