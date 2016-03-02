@@ -1,5 +1,16 @@
 <?php /* Template Name: Three Column */ ?>
 
+<script>
+
+$( document ).ready(function() {
+    $( ".wp-content" ).each(function() {
+        link = $( this ).find('a').attr('href');
+        alert(link);
+    });
+});
+
+</script>
+
 <?php
     wp_head();
     get_header();
