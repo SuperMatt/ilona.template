@@ -135,7 +135,6 @@ $templatedirectory = get_template_directory_uri();
 
       .col-sm-4 .wp-caption {
         max-width: 100%;
-        height: 100%;
       }
 
 
