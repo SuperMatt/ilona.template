@@ -108,16 +108,11 @@ $templatedirectory = get_template_directory_uri();
         height: auto;
       }
 
-      .igallery img:hover {
-
-      }
-
       .igallery .wp-caption, .igallery .wp-caption-text  {
         max-width: 100%;
       }
 
       .igallery .wp-caption .wp-caption-text {
-        display: block;
         position: relative;
         top: 0px;
         height: 100%;
