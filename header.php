@@ -133,12 +133,12 @@ $templatedirectory = get_template_directory_uri();
         opacity: 1;
       }
 
-      .overlay {
+      .col-sm-4 .wp-caption {
         max-width: 100%;
       }
 
 
-      .overlay .wp-caption .wp-caption-text {
+      .col-sm-4 .wp-caption .wp-caption-text {
         position: absolute;
         top: 0;
         background-color: rgba(178,223,219,0.9);
@@ -146,7 +146,7 @@ $templatedirectory = get_template_directory_uri();
         color: #FFF;
       }
 
-      .overlay .wp-caption .wp-caption-text:hover {
+      .col-sm-4 .wp-caption .wp-caption-text:hover {
         position: absolute;
         top: 0;
         background-color: rgba(178,223,219,0.9);
