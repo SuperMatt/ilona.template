@@ -124,7 +124,6 @@ $templatedirectory = get_template_directory_uri();
         vertical-align: middle;
         text-align: center;
         padding-top: calc(50% - 32px);
-        margin-top:
         font-size: 32px;
         font-weight: bold;
         font-family: "Muli";
