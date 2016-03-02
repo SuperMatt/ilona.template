@@ -36,7 +36,7 @@ $( document ).ready(function() {
         link = $( this ).find('a').attr('href');
 
         caption = $( this ).find('.wp-caption-text').html();
-        alert(caption)
+        $( this ).find('.wp-caption-text').html('<a href="' + link + '">' + caption + '</a>')
     });
 });
 
