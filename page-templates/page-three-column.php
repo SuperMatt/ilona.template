@@ -3,7 +3,7 @@
 <script>
 
 $( document ).ready(function() {
-    $( ".wp-content" ).each(function() {
+    $( ".wp-caption" ).each(function() {
         link = $( this ).find('a').attr('href');
         alert(link);
     });
