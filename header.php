@@ -154,7 +154,6 @@ $templatedirectory = get_template_directory_uri();
 
       .col-sm-4 .wp-caption .wp-caption-text:hover {
         opacity: 1;
-        pointer-events: none;
       }
 
 
