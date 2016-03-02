@@ -138,6 +138,7 @@ $templatedirectory = get_template_directory_uri();
       }
 
       .overlay {
+        position:absolute;
         opacity: 1;
         z-index: 1;
       }
