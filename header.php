@@ -144,20 +144,16 @@ $templatedirectory = get_template_directory_uri();
         background-color: rgba(178,223,219,0.9);
         opacity: 0;
         color: #FFF;
-      }
-
-      .col-sm-4 .wp-caption .wp-caption-text:hover {
-        position: absolute;
-        top: 0;
-        background-color: rgba(178,223,219,0.9);
-        opacity: 1;
-        color: #FFF;
         width: calc(100% - 30px);
         height: 100%;
         padding-top: calc(50% - 32px);
         font-size: 32px;
         text-align: center;
         font-weight: bold;
+      }
+
+      .col-sm-4 .wp-caption .wp-caption-text:hover {
+        opacity: 1;
       }
 
 
