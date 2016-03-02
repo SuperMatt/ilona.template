@@ -154,8 +154,10 @@ $templatedirectory = get_template_directory_uri();
         color: #FFF;
         width: calc(100% - 30px);
         height: 100%;
-        padding-top: calc(50% - 32px);
+        margin-top: calc(50% - 32px);
         font-size: 32px;
+        text-align: center;
+        font-weight: bold;
       }
 
 
