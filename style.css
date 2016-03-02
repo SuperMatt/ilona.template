@@ -62,7 +62,7 @@ a img.aligncenter {
     border: 0 none;
     height: auto;
     margin: 0;
-    max-width: 98.5%;
+    /*max-width: 98.5%;*/
     padding: 0;
     width: auto;
 }
@@ -71,7 +71,7 @@ a img.aligncenter {
     font-size: 11px;
     line-height: 17px;
     margin: 0;
-    /*padding: 0 4px 5px;*/
+    padding: 0 4px 5px;
 }
 
 /* Text meant only for screen readers. */
