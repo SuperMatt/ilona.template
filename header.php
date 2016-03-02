@@ -103,14 +103,13 @@ $templatedirectory = get_template_directory_uri();
         margin-top: 48px;
       }
 
-      .igallery img {
+      .igallery a img {
         max-width: 100%;
         height: auto;
       }
 
       .igallery .wp-caption  {
-        float: left;
-        max-width: calc(100% / 3);
+        max-width: 100%;
       }
 
       .igallery .wp-caption a .wp-caption-text {
