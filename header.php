@@ -146,6 +146,7 @@ $templatedirectory = get_template_directory_uri();
         color: #FFF;
         width: calc(100% - 30px);
         padding-top: calc(50% - 32px);
+        padding-bottom: 50%;
         font-size: 32px;
         text-align: center;
         font-weight: bold;
