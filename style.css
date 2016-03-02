@@ -242,6 +242,7 @@ body {
         color: #FFF;
         left: 0;
         right: 0;
+        bottom: 0;
         padding-top: calc(50% - 32px);
         font-size: 32px;
         text-align: center;
