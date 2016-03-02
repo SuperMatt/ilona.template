@@ -116,6 +116,16 @@ $templatedirectory = get_template_directory_uri();
         max-width: 100%;
       }
 
+      .igallery .wp-caption-text {
+        position: relative;
+        top: 0;
+        left: 0;
+        height:100%;
+        width: 100%;
+        background-color: #b2dfdb;
+        opacity: 0.3;
+      }
+
 
     </style>
   </head>
