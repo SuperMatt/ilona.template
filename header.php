@@ -135,6 +135,7 @@ $templatedirectory = get_template_directory_uri();
 
       .col-sm-4 .wp-caption {
         max-width: 100%;
+        height: 100%;
       }
 
 
@@ -153,7 +154,7 @@ $templatedirectory = get_template_directory_uri();
         opacity: 1;
         color: #FFF;
         width: calc(100% - 30px);
-        min-height: 100%;
+        height: 100%;
         padding-top: calc(50% - 32px);
         font-size: 32px;
         text-align: center;
