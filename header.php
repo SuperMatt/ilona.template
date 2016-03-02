@@ -103,7 +103,7 @@ $templatedirectory = get_template_directory_uri();
         margin-top: 48px;
       }
 
-      .igallery a img {
+      .igallery img {
         max-width: 100%;
         height: auto;
       }
