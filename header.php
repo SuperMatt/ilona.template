@@ -139,15 +139,11 @@ $templatedirectory = get_template_directory_uri();
       }
 
       .overlay {
-        position: absolute;
-        top: 0;
         background-color: rgba(178,223,219,0.9);
         opacity: 0;
       }
 
       .overlay:hover {
-        position: absolute;
-        top: 0;
         background-color: rgba(178,223,219,0.9);
         opacity: 1;
       }
