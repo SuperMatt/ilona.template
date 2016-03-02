@@ -240,7 +240,6 @@ body {
         background-color: rgba(178,223,219,0.9);
         opacity: 0;
         color: #FFF;
-        bottom: -10px;
         left: 0;
         right: 0;
         padding-top: calc(50% - 32px);
