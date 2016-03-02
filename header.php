@@ -117,7 +117,7 @@ $templatedirectory = get_template_directory_uri();
         top: 0px;
         height: 100%;
         width: calc(100% - 30px);
-        background-color: rgba(178,223,219,0.7);
+        background-color: rgba(178,223,219,0.9);
         opacity: 0;
         left: 15px;
         color: #fff;
