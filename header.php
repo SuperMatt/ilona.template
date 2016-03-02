@@ -145,7 +145,7 @@ $templatedirectory = get_template_directory_uri();
         }
 
       .col-sm-4 .wp-caption p.wp-caption-text {
-        position: absolute;
+        position: relative;
         top: 0;
         background-color: rgba(178,223,219,0.9);
         opacity: 0;
