@@ -35,7 +35,7 @@ $( document ).ready(function() {
     $( ".wp-caption" ).each(function() {
         link = $( this ).find('a').attr('href');
 
-        caption = $( this ).find('.wp-content-text').html();
+        caption = $( this ).find('.wp-caption-text').html();
         alert(caption)
     });
 });
