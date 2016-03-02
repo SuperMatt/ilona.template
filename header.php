@@ -134,14 +134,14 @@ $templatedirectory = get_template_directory_uri();
       }
 
       .col-sm-4 .wp-caption {
+        display: block;
         max-width: 100%;
-        height: auto;
 
       }
 
 
       .col-sm-4 .wp-caption .wp-caption-text {
-        position: relative;
+        position: absolute;
         top: 0;
         background-color: rgba(178,223,219,0.9);
         opacity: 0;
