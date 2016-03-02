@@ -135,7 +135,7 @@ $templatedirectory = get_template_directory_uri();
         opacity: 1;
       }
 
-      .col-sm-4 .wp-caption {
+      .col-sm-4 div.wp-caption {
         max-width: 100%;
 
       }
