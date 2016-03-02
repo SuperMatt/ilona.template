@@ -117,6 +117,7 @@ $templatedirectory = get_template_directory_uri();
       }
 
       .igallery .wp-caption .wp-caption-text {
+        display: block;
         position: relative;
         top: 0px;
         height: 100%;
