@@ -115,7 +115,7 @@ $templatedirectory = get_template_directory_uri();
       .igallery .wp-caption .wp-caption-text {
         position: absolute;
         top: 0px;
-        height: 100%;
+        height: calc(100% - 20px);
         width: calc(100% - 30px);
         background-color: rgba(178,223,219,0.9);
         opacity: 0;
@@ -127,15 +127,11 @@ $templatedirectory = get_template_directory_uri();
         font-size: 32px;
         font-weight: bold;
         font-family: "Muli";
+        margin-top: 10px;
       }
 
       .igallery .wp-caption .wp-caption-text:hover {
         opacity: 1;
-      }
-
-      .igallery a:hover {
-        text-decoration: none;
-        color: #fff;
       }
 
 
