@@ -112,7 +112,7 @@ $templatedirectory = get_template_directory_uri();
         max-width: 100%;
       }
 
-      .igallery .wp-caption .wp-caption-text {
+      .wp-caption .wp-caption-text {
         position: relative;
         top: 0px;
         height: 100%;
