@@ -224,17 +224,13 @@ body {
         opacity: 1;
       }
 
-      .col-sm-4 div.wp-caption {
+      .imggrid .wp-caption {
         max-width: 100%;
         position: relative;
-
+	display: block;
       }
 
-      .wp-caption {
-        display: block;
-        }
-
-      .col-sm-4 .wp-caption p.wp-caption-text a {
+      .imggrid .wp-caption .wp-caption-text a {
         position: absolute;
         top: 0;
         background-color: rgba(178,223,219,0.9);
@@ -249,7 +245,7 @@ body {
         font-weight: bold;
       }
 
-      .col-sm-4 .wp-caption p.wp-caption-text a:hover {
+      .imggrid .wp-caption .wp-caption-text a:hover {
         opacity: 1;
         text-decoration: none
       }
