@@ -134,7 +134,6 @@ $templatedirectory = get_template_directory_uri();
       }
 
       .col-sm-4 .wp-caption {
-        display: inline;
         max-width: 100%;
 
       }
@@ -147,7 +146,7 @@ $templatedirectory = get_template_directory_uri();
         opacity: 0;
         color: #FFF;
         width: calc(100% - 30px);
-        height: auto%;
+        height: auto;
         padding-top: calc(50% - 32px);
         font-size: 32px;
         text-align: center;
