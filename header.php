@@ -137,6 +137,7 @@ $templatedirectory = get_template_directory_uri();
 
       .col-sm-4 div.wp-caption {
         max-width: 100%;
+        position: relative;
 
       }
 
@@ -145,7 +146,7 @@ $templatedirectory = get_template_directory_uri();
         }
 
       .col-sm-4 .wp-caption p.wp-caption-text {
-        position: relative;
+        position: absolute;
         top: 0;
         background-color: rgba(178,223,219,0.9);
         opacity: 0;
