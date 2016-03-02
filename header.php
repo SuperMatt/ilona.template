@@ -126,6 +126,7 @@ $templatedirectory = get_template_directory_uri();
         padding-top: calc(50% - 32px);
         font-size: 32px;
         font-weight: bold;
+        font-family: "Muli"
       }
 
       .igallery .wp-caption .wp-caption-text:hover {
