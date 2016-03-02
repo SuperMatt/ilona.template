@@ -123,8 +123,8 @@ $templatedirectory = get_template_directory_uri();
         color: #fff;
         vertical-align: middle;
         text-align: center;
-        padding-top: calc(50% - 8px);
-        font-size: 16px;
+        padding-top: calc(50% - 32px);
+        font-size: 32px;
         font-weight: bold;
       }
 
