@@ -252,3 +252,11 @@ body {
       .col-sm-4 .wp-caption p.wp-caption-text:hover {
         opacity: 1;
       }
+
+      .col-sm-4 .wp-caption p.wp-caption-text a {
+        color: #FFF;
+      }
+
+      .col-sm-4 .wp-caption p.wp-caption-text a:hover {
+        text-decoration: none;
+      }
