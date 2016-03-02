@@ -150,6 +150,7 @@ $templatedirectory = get_template_directory_uri();
         background-color: rgba(178,223,219,0.9);
         opacity: 0;
         color: #FFF;
+        bottom: 0;
         width: calc(100% - 30px);
         height: inherit;
         padding-top: calc(50% - 32px);
