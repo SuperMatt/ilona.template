@@ -112,13 +112,22 @@ $templatedirectory = get_template_directory_uri();
         max-width: 100%;
       }
 
-      .wp-caption .wp-caption-text {
-        position: relative;
+      .igallery .wp-caption .wp-caption-text {
+        position: absolute;
         top: 0px;
         height: 100%;
         width: 100%;
         background-color: #b2dfdb;
-        opacity: 0.3;
+        opacity: 0;
+      }
+
+      .igallery .wp-caption .wp-caption-text:hover {
+        position: absolute;
+        top: 0px;
+        height: 100%;
+        width: 100%;
+        background-color: #b2dfdb;
+        opacity: 1;
       }
 
 
