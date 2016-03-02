@@ -123,6 +123,9 @@ $templatedirectory = get_template_directory_uri();
         color: #fff;
         vertical-align: middle;
         text-align: center;
+        padding-top: calc(50% - 8px);
+        font-size: 16px;
+        font-weight: bold;
       }
 
       .igallery .wp-caption .wp-caption-text:hover {
