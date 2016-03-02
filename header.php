@@ -121,7 +121,6 @@ $templatedirectory = get_template_directory_uri();
         opacity: 0;
         left: 15px;
         color: #fff;
-        vertical-align: middle;
         text-align: center;
         padding-top: calc(50% - 32px);
         font-size: 32px;
@@ -140,10 +139,21 @@ $templatedirectory = get_template_directory_uri();
 
       .overlay {
         opacity: 1;
+        z-index: 1;
       }
 
       .overlay:hover {
-        opacity: 0.1;
+        z-index: -1;
+      }
+
+      .col-sm-4 .wp-caption .wp-caption-text {
+        position: absolute;
+        top: 0;
+        background-color: rgba(178,223,219,0.9);
+        color: #FFF;
+        z-index: 0;
+
+
       }
 
 
