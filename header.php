@@ -134,7 +134,7 @@ $templatedirectory = get_template_directory_uri();
       }
 
       .col-sm-4 .wp-caption {
-        display: block;
+        display: inline;
         max-width: 100%;
 
       }
