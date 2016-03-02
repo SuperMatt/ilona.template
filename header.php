@@ -108,25 +108,21 @@ $templatedirectory = get_template_directory_uri();
         height: auto;
       }
 
-      .igallery .wp-caption, .igallery .wp-caption-text  {
+      .igallery .wp-caption  {
         max-width: 100%;
       }
 
       .igallery .wp-caption .wp-caption-text {
         position: absolute;
         top: 0px;
-        height: 100%;
-        width: 100%;
+        max-height: 100%;
+        max-width: 100%;
         background-color: #b2dfdb;
         opacity: 0;
+        left: 0px
       }
 
       .igallery .wp-caption .wp-caption-text:hover {
-        position: absolute;
-        top: 0px;
-        height: 100%;
-        width: 100%;
-        background-color: #b2dfdb;
         opacity: 1;
       }
 
