@@ -133,6 +133,11 @@ $templatedirectory = get_template_directory_uri();
         opacity: 1;
       }
 
+      .igallery a:hover {
+        text-decoration: none;
+        color: #fff;
+      }
+
 
     </style>
   </head>
