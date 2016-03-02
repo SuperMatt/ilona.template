@@ -9,10 +9,10 @@
         <?php the_field('col1'); ?>
       </div>
       <div class="col-sm-4">
-        <?php the_field('col1'); ?>
+        <?php the_field('col2'); ?>
       </div>
       <div class="col-sm-4">
-        <?php the_field('col1'); ?>
+        <?php the_field('col3'); ?>
       </div>
 <?php
     if ( have_posts() ) : while ( have_posts() ) : the_post();
