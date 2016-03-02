@@ -141,7 +141,7 @@ $templatedirectory = get_template_directory_uri();
       }
 
 
-      .col-sm-4 .wp-caption .wp-caption-text {
+      .col-sm-4 div.wp-caption .wp-caption-text {
         position: fixed;
         top: 0;
         background-color: rgba(178,223,219,0.9);
@@ -155,7 +155,7 @@ $templatedirectory = get_template_directory_uri();
         font-weight: bold;
       }
 
-      .col-sm-4 .wp-caption .wp-caption-text:hover {
+      .col-sm-4 div.wp-caption .wp-caption-text:hover {
         opacity: 1;
       }
 
