@@ -152,7 +152,10 @@ $templatedirectory = get_template_directory_uri();
         background-color: rgba(178,223,219,0.9);
         opacity: 1;
         color: #FFF;
-        width: 100%;
+        width: calc(100% - 30px);
+        height: 100%;
+        padding-top: calc(50% - 32px);
+        font-size: 32px;
       }
 
 
