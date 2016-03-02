@@ -135,15 +135,11 @@ $templatedirectory = get_template_directory_uri();
 
       .col-sm-4 .wp-caption {
         max-width: 100%;
-      }
-
-      .overlay {
-        position:absolute;
         opacity: 1;
         z-index: 1;
       }
 
-      .overlay:hover {
+      .col-sm-4 .wp-caption:hover {
         z-index: -1;
       }
 
