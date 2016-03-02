@@ -1,15 +1,5 @@
 <?php /* Template Name: Three Column */ ?>
 
-<script>
-
-$( document ).ready(function() {
-    $( ".wp-caption" ).each(function() {
-        link = $( this ).find('a').attr('href');
-        alert(link);
-    });
-});
-
-</script>
 
 <?php
     wp_head();
@@ -38,3 +28,14 @@ $( document ).ready(function() {
     get_footer();
     wp_footer();
 ?>
+
+<script>
+
+$( document ).ready(function() {
+    $( ".wp-caption" ).each(function() {
+        link = $( this ).find('a').attr('href');
+        alert(link);
+    });
+});
+
+</script>
