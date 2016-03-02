@@ -142,7 +142,7 @@ $templatedirectory = get_template_directory_uri();
 
 
       .col-sm-4 div.wp-caption .wp-caption-text {
-        position: fixed;
+        position: absolute;
         top: 0;
         background-color: rgba(178,223,219,0.9);
         opacity: 0;
