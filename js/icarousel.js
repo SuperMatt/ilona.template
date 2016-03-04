@@ -5,6 +5,7 @@ $(document).ready(function() {
 
         caption = $( this ).find('.wp-caption-text').html();
         $( this ).find('.wp-caption-text').html('<a href="' + link + '">' + caption + '</a>')
+        console.log("moved link: " + link)
     });
 
     imglist = []
