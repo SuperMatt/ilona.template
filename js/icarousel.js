@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    imglist = []
+    var imglist = []
 
     $("body").find("a.overlay").each(function() {
         url = $(this).attr("href");
