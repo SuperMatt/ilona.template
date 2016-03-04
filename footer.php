@@ -6,4 +6,4 @@
   </body>
 </html>
 
-<script src="<?php echo $templatedirectory ?>/js/icarousel.js"></script>
+<script src="<?php echo get_template_directory_uri ?>/js/icarousel.js"></script>
