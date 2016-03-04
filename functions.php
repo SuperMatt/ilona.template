@@ -7,6 +7,10 @@ function register_my_menus() {
     );
 }
 
+if ( ! isset( $content_width ) ) {
+    $content_width = 970;
+}
+
 add_action( 'init', 'register_my_menus');
 add_image_size('3col');
 ?>
