@@ -5,12 +5,12 @@ $(document).ready(function() {
     $("body").find("a.overlay").each(function() {
         url = $(this).attr("href");
         if (url != "undefined") {
-            var imglist.push(url);
+            imglist.push(url);
         }
 
     });
 
-    numitems = var imglist.length;
+    numitems = imglist.length;
 
     $("body").append('<div id="carouselbg" style="position: fixed; top: 0px; left: 0px; bottom: 0px; right: 0px; background-color: #FFF;"></div>')
     $("#carouselbg").hide();
@@ -26,7 +26,7 @@ $(document).ready(function() {
         }
 
         $(".carousel-inner").append('<div id="item' + i + '" class="item ' + active + '"></div>')
-        $("#item" + i).append('<center><img style="max-width: 970px; height: 100%;" src="' + var imglist[i] + '" class="" ></center>')
+        $("#item" + i).append('<center><img style="max-width: 970px; height: 100%;" src="' + imglist[i] + '" class="" ></center>')
     }
 
     $("#imgcarousel").append('<a class="left carousel-control" style="background-image: none;" href="#imgcarousel" role="button" data-slide="prev"></a>')
@@ -49,7 +49,7 @@ $(document).ready(function() {
         $(this).click(function(event) {
             event.preventDefault();
             for(i = 0; i < numitems; i++) {
-                if(var imglist[i] == $(this).attr("href"))
+                if(imglist[i] == $(this).attr("href"))
                 {
                     number = i;
                     break;
