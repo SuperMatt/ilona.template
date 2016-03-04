@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    var imglist = []
+    imglist = []
 
     $("body").find("a.overlay").each(function() {
         url = $(this).attr("href");
@@ -60,5 +60,3 @@ $(document).ready(function() {
         });
     });
 });
-
-console.log(imglist)
