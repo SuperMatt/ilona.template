@@ -104,6 +104,9 @@ a img.aligncenter {
 }
 
 
+html {
+    height: 100%;
+}
 
 body {
         color: #333;
