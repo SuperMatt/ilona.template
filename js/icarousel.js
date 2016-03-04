@@ -59,6 +59,7 @@ $(document).ready(function() {
             $("#carouselbg").fadeIn();
         });
     });
+
+    console.log(imglist)
 });
 
-console.log("loaded")
