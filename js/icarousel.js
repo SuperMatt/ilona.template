@@ -34,7 +34,7 @@ $(document).ready(function() {
         }
 
         $(".carousel-inner").append('<div id="item' + i + '" class="item ' + active + '"></div>')
-        $("#item" + i).append('<center><img style="max-width: 970px; height: 100%; height: ' + ( 0.8 * $(window).height() ) + '" src="' + imglist[i] + '" class="" ></center>')
+        $("#item" + i).append('<center><img style="max-width: 970px; height: 100%; min-height: ' + ( 0.8 * $(window).height() ) + '" src="' + imglist[i] + '" class="" ></center>')
     }
 
     $("#imgcarousel").append('<a class="left carousel-control" style="background-image: none;" href="#imgcarousel" role="button" data-slide="prev"></a>')
