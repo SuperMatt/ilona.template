@@ -36,8 +36,14 @@ $(document).ready(function() {
     $(".right").append('<span style="color: #333" class="glyphicon glyphicon-chevron-right" aria-hidden="false"></span>')
     $(".right").append('<span class="sr-only">Next</span>')
 
-    $(".carousel").carousel('pause');
+    $("#carouselbg").append('<div id="carouselclose" style="font-size: 30px" class="caoursel-control"><span class="glyphicon glyphicon-remove" style="position: fixed; top: 50px; left: 91px"></span></div>')
 
+    $(".carousel").carousel('pause');
+    $(".carousel").carousel({interval: false});
+
+    $("#carouselclose").click(function() {
+        $("#carouselbg").fadeOut();
+    });
 
     $(".imggrid").find("a").each(function() {
         $(this).click(function(event) {
