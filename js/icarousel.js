@@ -15,7 +15,7 @@ $(document).ready(function() {
     $("body").append('<div id="carouselbg" style="position: fixed; top: 0px; left: 0px; bottom: 0px; right: 0px; background-color: #FFF;"></div>')
     $("#carouselbg").hide();
 
-    $("#carouselbg").append('<div id="imgcarousel" class="carousel slide" data-ride="carousel"></div>');
+    $("#carouselbg").append('<div id="imgcarousel" class="carousel slide" data-ride="carousel" style="position: fixed; top: 10%; bottom: 10%; left: 0px; right: 0px"></div>');
 
     $("#imgcarousel").append('<div class="carousel-inner" role="listbox"></div>')
 

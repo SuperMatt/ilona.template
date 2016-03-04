@@ -5,3 +5,5 @@
     </div>
   </body>
 </html>
+
+<script src="<?php echo $templatedirectory ?>/js/icarousel.js"></script>
