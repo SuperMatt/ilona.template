@@ -181,6 +181,7 @@ li.current-menu-item {
 
 .icarousel-close {
     font-size: 30px;
-    position: fixed;
-    top: 50px;
+    position: absolute;
+    top: 10%;
+    display: inline-block;
 }
