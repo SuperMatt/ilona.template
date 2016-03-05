@@ -10,8 +10,8 @@ $templatedirectory = get_template_directory_uri();
     <script src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
     <link rel="stylesheet" href="<?php echo $templatedirectory ?>/css/bootstrap.min.css">
     <script src="<?php echo $templatedirectory ?>/js/bootstrap.min.js"></script>
-    <!-- <script src="<?php echo $templatedirectory ?>/js/icarousel.js"></script> -->
     <title><?php bloginfo('name'); echo " - "; the_title(); ?></title>
+    <link rel="stylesheet" href="<?php echo $templatedirectory ?>/css/wordpress.css">
     <link rel="stylesheet" href="<?php echo $templatedirectory ?>/style.css">
   </head>
   <body>
