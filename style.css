@@ -189,6 +189,7 @@ li.current-menu-item {
     top: 5%;
     display: inline-block;
     height: 30px;
+    margin-left: -20px;
 }
 
 .closebutton {
