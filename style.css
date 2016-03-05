@@ -186,7 +186,7 @@ li.current-menu-item {
     height:30px;
     color: #333;
     position: absolute;
-    top: 5%;
+    top: 0px;
     display: inline-block;
     height: 30px;
     margin-left: -10px;
