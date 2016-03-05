@@ -147,3 +147,39 @@ li.current-menu-item {
     opacity: 1;
     text-decoration: none
 }
+
+
+.icarousel {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background-color: #FFF;
+}
+
+.icarousel-slide {
+    position: fixed;
+    top: 10%;
+    bottom: 10%;
+    left: 0px;
+    right: 0px"
+}
+
+.icarousel-img {
+    max-width: 970px;
+    height: 100%;
+}
+
+.icarousel .caoursel-control.left,  .icarousel .caoursel-control.right{
+    background-image: none;
+}
+
+.icarousel-glyph {
+    color: #333;
+}
+
+.icarousel-close {
+    font-size: 30px;
+    position: fixed; top: 50px; left: 91px
+}
