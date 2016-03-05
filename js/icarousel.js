@@ -44,7 +44,7 @@ $(document).ready(function() {
     $(".right").append('<span class="icarousel-glyph glyphicon glyphicon-chevron-right" aria-hidden="false"></span>')
     $(".right").append('<span class="sr-only">Next</span>')
 
-    $("#carouselbg").append('<a id="carouselclose" class="caoursel-control left"><span class="icarousel-close glyphicon glyphicon-remove"></span></a>')
+    $("#imgcarousel").append('<a id="carouselclose" class="caoursel-control left"><span class="icarousel-close glyphicon glyphicon-remove"></span></a>')
 
     $(".carousel").carousel('pause');
     $(".carousel").carousel({interval: false});
