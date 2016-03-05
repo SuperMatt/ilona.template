@@ -186,4 +186,5 @@ li.current-menu-item {
     position: absolute;
     top: 5%;
     display: inline-block;
+    height: 30px;
 }
