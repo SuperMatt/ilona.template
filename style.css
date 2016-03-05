@@ -188,3 +188,7 @@ li.current-menu-item {
     display: inline-block;
     height: 30px;
 }
+
+.closebutton {
+    height: 30px;
+}
