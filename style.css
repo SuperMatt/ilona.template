@@ -177,12 +177,13 @@ li.current-menu-item {
 
 .icarousel-glyph {
     color: #333;
+    margin-left: -10px
 }
 
 .icarousel-close {
     color: #333;
     font-size: 30px;
     position: absolute;
-    top: 10%;
+    top: 5%;
     display: inline-block;
 }
