@@ -180,6 +180,7 @@ li.current-menu-item {
 }
 
 .icarousel-close {
+    color: #333;
     font-size: 30px;
     position: absolute;
     top: 10%;
