@@ -68,6 +68,11 @@ $(document).ready(function() {
         });
     });
 
+    $(".carousel-control").click(function(){
+        $(".carousel").carousel('pause');
+        $(".carousel").carousel({interval: false});
+    });
+
     console.log(imglist)
 });
 
