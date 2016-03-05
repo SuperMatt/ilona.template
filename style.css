@@ -171,7 +171,7 @@ li.current-menu-item {
     height: 100%;
 }
 
-.icarousel .caoursel-control.left,  .icarousel .caoursel-control.right{
+.icarousel .caoursel-control .left,  .icarousel .caoursel-control .right{
     background-image: none;
 }
 
