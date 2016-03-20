@@ -13,19 +13,20 @@ $templatedirectory = get_template_directory_uri();
     <title><?php bloginfo('name'); echo " - "; the_title(); ?></title>
     <link rel="stylesheet" href="<?php echo $templatedirectory ?>/css/wordpress.css">
     <link rel="stylesheet" href="<?php echo $templatedirectory ?>/style.css">
+    <?php wp_head(); ?>
   </head>
   <body>
     <div class="container">
-      <div class="row navigation">
-        <div class="col-sm-12 hidden-xs">
+      <div class="row">
+        <div class="col-sm-12 hidden-xs navigation">
           <div class="pull-left"><h1 class="title"><?php bloginfo('name');?></h1></div>
           <div class="pull-right titlesize"><?php wp_nav_menu( array( 'theme_location' => 'header-menu', 'menu_class' => 'list list-inline' ) ); ?></div>
         </div>
 
-        <div class="col-sm-12 hidden-sm hidden-md hidden-lg">
+        <div class="col-sm-12 hidden-sm hidden-md hidden-lg navigation">
             <h1 class="title"><?php bloginfo('name');?>
         </div>
-        <div class="col-sm-12 hidden-sm hidden-md hidden-lg">
+        <div class="col-sm-12 hidden-sm hidden-md hidden-lg navigation">
         <?php
             wp_nav_menu( array( 'theme_location' => 'header-menu', 'menu_class' => 'list list-inline' ) );
         ?>

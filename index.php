@@ -1,5 +1,4 @@
 <?php
-    wp_head();
     get_header();
 ?>
       <div class="row main">
@@ -14,5 +13,4 @@
       </div>
 <?php
     get_footer();
-    wp_footer();
 ?>
