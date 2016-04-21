@@ -8,4 +8,6 @@
   <?php wp_footer(); ?>
 </html>
 
-<script src="<?php echo get_template_directory_uri() ?>/js/icarousel.js"></script>
+
+<script src="<?php echo get_template_directory_uri() ?>/js/ioverlay.js"></script>
+
