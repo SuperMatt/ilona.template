@@ -1,11 +1,15 @@
 $(document).ready(function() {
 
     imglist = []
+    captionlist = []
 
-    $("body").find("a.overlay").each(function() {
-        url = $(this).attr("href");
+    /*$("body").find("a.overlay").each(function() { */
+    $( ".wp-caption" ).each(function() {
+        url = $( this ).find('a').attr('href');
+	caption = $( this ).find('img').attr('alt');
         if (url != "undefined") {
             imglist.push(url);
+            captionlist.push(caption);
         }
 
     });
@@ -26,7 +30,7 @@ $(document).ready(function() {
         }
 
         $(".carousel-inner").append('<div id="item' + i + '" class="item ' + active + '"></div>')
-        $("#item" + i).append('<center><img src="' + imglist[i] + '" class="icarousel-img" ></center>')
+        $("#item" + i).append('<center><img src="' + imglist[i] + '" class="icarousel-img" ><p class="icarousel-caption">' + captionlist[i] + '</p></center>')
     }
 
     $("#imgcarousel").append('<a class="left carousel-control" href="#imgcarousel" role="button" data-slide="prev"></a>')
@@ -66,5 +70,6 @@ $(document).ready(function() {
     });
 
     console.log(imglist)
+    console.log(captionlist)
 });
 

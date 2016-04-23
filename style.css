@@ -191,6 +191,20 @@ li.current-menu-item {
     margin-left: -10px;
 }
 
+.icarousel-caption {
+    position: absolute;
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    bottom: 0;
+    height: 20px;
+    left: 35%;
+    right: 35%;
+    text-align: center;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    
+}
+
 .closebutton {
     height: 30px;
 }
