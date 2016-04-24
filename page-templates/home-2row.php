@@ -15,13 +15,13 @@
       </div>
       <divclass="row main">
       <div class="col-sm-4">
-        <?php the_field('row2-col1');
+        <?php the_field('row2-col1'); ?>
       </div>
       <div class="col-sm-4">
-        <?php the_field('row2-col2');
+        <?php the_field('row2-col2'); ?>
       </div>
       <div class="col-sm-4">
-        <?php the_field('row2-col3');
+        <?php the_field('row2-col3'); ?>
       </div>
       </div>
 
