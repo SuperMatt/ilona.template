@@ -110,7 +110,8 @@ li.current-menu-item {
     top: 0px;
     height: calc(100% - 20px);
     width: calc(100% - 30px);
-    background-color: rgba(178,223,219,0.9);
+    /*background-color: rgba(178,223,219,0.9);*/
+    background-color: rgba(118,180,152,0.9);
     opacity: 0;
     left: 15px;
     color: #fff;
