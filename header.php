@@ -19,7 +19,7 @@ $templatedirectory = get_template_directory_uri();
     <div class="container">
       <div class="row">
         <div class="col-sm-12 hidden-xs navigation">
-          <div class="pull-left"><a href="/"><h1 class="title"><?php bloginfo('name');?></h1></a></div>
+          <div class="pull-left"><a href="/" class="title"><h1 class="title"><?php bloginfo('name');?></h1></a></div>
           <div class="pull-right titlesize"><?php wp_nav_menu( array( 'theme_location' => 'header-menu', 'menu_class' => 'list list-inline' ) ); ?></div>
         </div>
 

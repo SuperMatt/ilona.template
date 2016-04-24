@@ -20,6 +20,10 @@ h1.title {
     margin-bottom: 0px;
 }
 
+a.title:hover {
+    text-decoration: none;
+}
+
 p {
     color: #333;
     font-family: Muli, sans-serif;
