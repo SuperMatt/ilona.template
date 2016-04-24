@@ -13,7 +13,7 @@
         <?php the_field('col2'); ?>
       </div>
       </div>
-      <divclass="row main">
+      <div class="row main">
       <div class="col-sm-4">
         <?php the_field('row2-col1'); ?>
       </div>
