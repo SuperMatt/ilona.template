@@ -1,5 +1,11 @@
 $(document).ready(function() {
 
+    $(".overlay").each( function () {
+        if (!($this).parent().hasClass("wp-caption")) {
+            $(this).wrap('<div class="wp-caption"></div>')
+        }
+    });
+
     $( ".wp-caption" ).each(function() {
         link = $( this ).find('a').attr('href');
 
