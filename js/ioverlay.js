@@ -1,5 +1,5 @@
 $(document).ready(function() {
-
+/*
     $("a.overlay").each( function () {
         if (!$(this).parent().hasClass("wp-caption")) {
             $(this).wrap('<div class="wp-caption alignnone" style="width:410px"></div>');
@@ -12,6 +12,7 @@ $(document).ready(function() {
         $(this).html(pContent);
     });
 
+*/
 
     $( ".wp-caption" ).each(function() {
         link = $( this ).find('a').attr('href');
