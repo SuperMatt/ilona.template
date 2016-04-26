@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    $(".overlay").each( function () {
+    $("a.overlay").each( function () {
         if (!$(this).parent().hasClass("wp-caption")) {
             $(this).wrap('<div class="wp-caption"></div>')
         }
