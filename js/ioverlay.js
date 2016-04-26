@@ -4,9 +4,9 @@ $(document).ready(function() {
         if (!$(this).parent().hasClass("wp-caption")) {
             $(this).wrap('<div class="wp-caption"></div>');
         }
-
-        $("a.overlay").after('<p class="wp-caption-text">&nbsp;</p>');
     });
+
+    $("a.overlay").after('<p class="wp-caption-text">&nbsp;</p>');
 
     $( ".wp-caption" ).each(function() {
         link = $( this ).find('a').attr('href');
