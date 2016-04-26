@@ -7,6 +7,10 @@ $(document).ready(function() {
         }
     });
 
+    $(".imggrid").each( function () {
+        pContent = $(this).find('p').html();
+        $(this).html(pContent);
+    });
 
 
     $( ".wp-caption" ).each(function() {
