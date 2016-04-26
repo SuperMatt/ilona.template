@@ -2,7 +2,7 @@ $(document).ready(function() {
 
     $("a.overlay").each( function () {
         if (!$(this).parent().hasClass("wp-caption")) {
-            console.log($(this).wrap('<div class="wp-caption"></div>'));
+            $(this).wrap('<div class="wp-caption"></div>');
         }
     });
 
