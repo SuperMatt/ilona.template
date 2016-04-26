@@ -6,7 +6,7 @@ $(document).ready(function() {
         }
     });
 
-    $("a.overlay").after('<p class="wp-caption-text">&nbsp;</p>');
+    $("a.overlay").after('<p class="wp-caption-text">banana;</p>');
 
     $( ".wp-caption" ).each(function() {
         link = $( this ).find('a').attr('href');
