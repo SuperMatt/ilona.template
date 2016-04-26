@@ -3,6 +3,7 @@ $(document).ready(function() {
     $("a.overlay").each( function () {
         if (!$(this).parent().hasClass("wp-caption")) {
             $(this).wrap('<div class="wp-caption"></div>')
+            $(this).after('<p class="wp-caption-text"></p>')
         }
     });
 
