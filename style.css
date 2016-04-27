@@ -221,3 +221,15 @@ li.current-menu-item {
 .closebutton {
     height: 30px;
 }
+
+.bigtext {
+    font-size: 150px;
+}
+
+@media (max-with: 767) {
+    .bigtext {
+        font-size: 75px;
+    }
+}
+
+
