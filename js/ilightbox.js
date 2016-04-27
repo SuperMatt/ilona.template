@@ -1,3 +1,4 @@
+$(document).ready(function() {
     imglist = []
     captionlist = []
 
@@ -10,3 +11,4 @@
             $(this).attr('data-title', caption);
         });
     });
+});
