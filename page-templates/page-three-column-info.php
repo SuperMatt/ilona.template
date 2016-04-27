@@ -55,6 +55,7 @@ lightbox.option({
     'resizeDuration': 0,
     'wrapAround': true,
     'alwaysShowNavOnTouchDevices': true,
-    'disableScrolling': true
+    'disableScrolling': true,
+    'fadeDuration': 0
 })
 </script>
