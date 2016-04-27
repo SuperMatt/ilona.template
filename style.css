@@ -164,6 +164,7 @@ li.current-menu-item {
     bottom: 0px;
     right: 0px;
     background-color: #FFF;
+    max-height:100%;
 }
 
 .icarousel-slide {
