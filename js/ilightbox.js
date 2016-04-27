@@ -13,6 +13,6 @@ $( ".wp-caption" ).each(function() {
 lightbox.option({
     'resizeDuration': 0,
     'wrapAround': true,
-    'alwaysShowNavOnTouchDevices', true,
+    'alwaysShowNavOnTouchDevices': true,
     'disableScrolling': true
 })
