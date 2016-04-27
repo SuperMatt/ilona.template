@@ -6,7 +6,7 @@ $(document).ready(function() {
     /*$("body").find("a.overlay").each(function() { */
     $( ".wp-caption" ).each(function() {
         url = $( this ).find('a').attr('href');
-	caption = $( this ).find('img').attr('alt');
+        caption = $( this ).find('img').attr('alt');
         if (url != "undefined") {
             imglist.push(url);
             captionlist.push(caption);
