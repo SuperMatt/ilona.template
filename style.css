@@ -227,7 +227,7 @@ li.current-menu-item {
     font-family: 'Playfair Display';
 }
 
-@media (max-with: 767) {
+@media (max-with: 767px) {
     .bigtext {
         font-size: 75px;
     }
