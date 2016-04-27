@@ -16,7 +16,7 @@ $(document).ready(function() {
 
     $(".wp-caption-text").each(function() {
         if ($(this).text() == "null") {
-            $(this).text('&nbsp;');
+            $(this).text('');
         }
     });
 
