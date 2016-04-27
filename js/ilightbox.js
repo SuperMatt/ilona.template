@@ -10,7 +10,7 @@ $( ".wp-caption" ).each(function() {
         if(($this).hasClass('overlay')) {
             albumname = "touch"
         }
-        $(this).attr('data-lightbox', ablumname);
+        $(this).attr('data-lightbox', albumname);
         $(this).attr('data-title', caption);
     });
 });
