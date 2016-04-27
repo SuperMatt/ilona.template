@@ -7,7 +7,7 @@ $( ".wp-caption" ).each(function() {
     $(this).find('a').each(function() {
 
         albumname = "fullscreen"
-        if(($this).hasClass('overlay')) {
+        if($(this).hasClass('overlay')) {
             albumname = "touch"
         }
         $(this).attr('data-lightbox', albumname);
