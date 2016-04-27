@@ -14,6 +14,12 @@ $(document).ready(function() {
 
 */
 
+    $(".wp-caption-text").each(function() {
+        if ($(this).text() == "null") {
+            $(this).text('&nbsp;');
+        }
+    });
+
     $( ".wp-caption" ).each(function() {
         link = $( this ).find('a').attr('href');
 
