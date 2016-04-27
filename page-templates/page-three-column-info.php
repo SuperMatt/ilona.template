@@ -66,7 +66,7 @@ lightbox.option({
     opacity: 1;
 }
 
-.lb-image {
+.lb-image, .lb-container {
     border-radius: 0;
 }
 </style>
