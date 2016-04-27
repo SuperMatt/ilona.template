@@ -118,7 +118,6 @@ li.current-menu-item {
     text-align: center;
     padding-top: calc(50% - 64px);
     font-size: 32px;
-    font-weight: bold;
     font-family: "Muli";
     margin-top: 10px;
   }
@@ -147,7 +146,6 @@ li.current-menu-item {
     text-align: center;
     font-weight: bold;
     line-height: 1;
-    font-weight: 400;
 }
 
 .imggrid .wp-caption .wp-caption-text a:hover {
