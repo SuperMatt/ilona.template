@@ -59,3 +59,10 @@ lightbox.option({
     'fadeDuration': 0
 })
 </script>
+
+<style>
+.lightboxOverlay {
+    background-color: #fff;
+    opacity: 1;
+}
+</style>
