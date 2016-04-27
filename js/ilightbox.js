@@ -5,7 +5,12 @@ captionlist = []
 $( ".wp-caption" ).each(function() {
     caption = $( this ).find('img').attr('alt');
     $(this).find('a').each(function() {
-        $(this).attr('data-lightbox', 'icarousel');
+
+        albumname = "fullscreen"
+        if(($this).hasClass('overlay')) {
+            albumname = "touch"
+        }
+        $(this).attr('data-lightbox', ablumname);
         $(this).attr('data-title', caption);
     });
 });
