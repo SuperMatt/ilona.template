@@ -9,10 +9,3 @@ $( ".wp-caption" ).each(function() {
         $(this).attr('data-title', caption);
     });
 });
-
-lightbox.option({
-    'resizeDuration': 0,
-    'wrapAround': true,
-    'alwaysShowNavOnTouchDevices': true,
-    'disableScrolling': true
-})

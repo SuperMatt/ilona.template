@@ -1,3 +1,8 @@
+<?php
+$templatedirectory = get_template_directory_uri();
+
+?>
+
 
         <div class="row">
           <div class="footer navbar navbar-bottom">Copyright &copy 2016 Ilona Porter. All rights reserved.</div>
