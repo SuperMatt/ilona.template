@@ -177,9 +177,9 @@ li.current-menu-item {
 
 .icarousel-img {
     width: auto;
-    max-width: 970px;
+    /*max-width: 970px;*/
     height: auto;
-    max-height: 100%;
+    /*max-height: 100%; */
 }
 
 .icarousel .carousel-control.left,  .icarousel .carousel-control.right {
