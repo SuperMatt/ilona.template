@@ -32,6 +32,7 @@ $(document).ready(function() {
         $(".carousel-inner").append('<div id="item' + i + '" class="item ' + active + '"></div>')
         captionHTML = "";
         if (captionlist[i] != "") {
+            console.log(captionlist[i])
             captionHTML = '<p class="icarousel-caption">' + captionlist[i] + '</p>'
         }
         $("#item" + i).append('<center><img src="' + imglist[i] + '" class="icarousel-img" >' + captionHTML + '</center>')
