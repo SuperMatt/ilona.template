@@ -44,3 +44,12 @@
 <link rel="stylesheet" href="<?php echo $templatedirectory ?>/css/lightbox.css">
 <script src="<?php echo $templatedirectory ?>/js/lightbox.js"></script>
 
+
+<script>
+lightbox.option({
+    'resizeDuration': 0,
+    'wrapAround': true,
+    'alwaysShowNavOnTouchDevices': true,
+    'disableScrolling': true
+})
+</script>
