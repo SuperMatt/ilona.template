@@ -176,6 +176,7 @@ li.current-menu-item {
 }
 
 .icarousel-img {
+    width: auto;
     max-width: 970px;
     height: auto;
     max-height: 100%;
