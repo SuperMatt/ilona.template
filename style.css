@@ -146,6 +146,7 @@ li.current-menu-item {
     font-size: 32px;
     text-align: center;
     font-weight: bold;
+    line-height: 1;
 }
 
 .imggrid .wp-caption .wp-caption-text a:hover {
