@@ -121,7 +121,7 @@ li.current-menu-item {
     color: #fff;
     text-align: center;
     padding-top: calc(50% - 64px);
-    font-size: 32px;
+    font-size: 24px;
     font-family: "Muli";
     margin-top: 10px;
   }
@@ -146,7 +146,7 @@ li.current-menu-item {
     right: 0;
     bottom: 5px;
     padding-top: 50%;
-    font-size: 32px;
+    font-size: 24px;
     text-align: center;
     line-height: 1;
 }
