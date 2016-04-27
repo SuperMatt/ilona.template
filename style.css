@@ -224,6 +224,7 @@ li.current-menu-item {
 
 .bigtext {
     font-size: 150px;
+    font-family: 'Playfair Display';
 }
 
 @media (max-with: 767) {
