@@ -69,4 +69,9 @@ lightbox.option({
 .lightbox .lb-image, .lb-container, .lb-outerContainer {
     border-radius: 0;
 }
+
+.lb-caption {
+    color: #333;
+    font-weight: 300;
+}
 </style>
