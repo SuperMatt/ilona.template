@@ -30,7 +30,12 @@ $(document).ready(function() {
         }
 
         $(".carousel-inner").append('<div id="item' + i + '" class="item ' + active + '"></div>')
-        $("#item" + i).append('<center><img src="' + imglist[i] + '" class="icarousel-img" ><p class="icarousel-caption">' + captionlist[i] + '</p></center>')
+        captionHTML = "";
+        if (captionlist[i] != "undefined") {
+            captionHTML = '<p class="icarousel-caption">' + captionlist[i] + '</p>'
+        }
+        $("#item" + i).append('<center><img src="' + imglist[i] + '" class="icarousel-img" >' + captionHTML + '</center>')
+
     }
 
     $("#imgcarousel").append('<a class="left carousel-control" href="#imgcarousel" role="button" data-slide="prev"></a>')
