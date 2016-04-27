@@ -169,7 +169,7 @@ li.current-menu-item {
 }
 
 .icarousel-slide {
-    position: fixed;
+    position: absolute;
     top: 10%;
     bottom: 10%;
     left: 0px;
