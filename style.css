@@ -36,6 +36,10 @@ p {
     padding-right: 15px;
 }
 
+.headerrow {
+    margin-bottom: 30px;
+}
+
 .row.main .col-xs-1 p, .row.main .col-xs-2 p, .row.main .col-xs-3 p,
 .row.main .col-xs-4 p, .row.main .col-xs-5 p, .row.main .col-xs-6 p,
 .row.main .col-xs-7 p, .row.main .col-xs-8 p, .row.main .col-xs-9 p,
