@@ -65,4 +65,8 @@ lightbox.option({
     background-color: #fff;
     opacity: 1;
 }
+
+.lb-image {
+    border-radius: 0;
+}
 </style>
