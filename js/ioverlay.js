@@ -1,4 +1,3 @@
-$(document).ready(function() {
 /*
     $("a.overlay").each( function () {
         if (!$(this).parent().hasClass("wp-caption")) {
@@ -14,17 +13,16 @@ $(document).ready(function() {
 
 */
 
-    $(".wp-caption-text").each(function() {
-        if ($(this).text() == "null") {
-            $(this).text('');
-        }
-    });
+$(".wp-caption-text").each(function() {
+    if ($(this).text() == "null") {
+        $(this).text('');
+    }
+});
 
-    $( ".wp-caption" ).each(function() {
-        link = $( this ).find('a').attr('href');
+$( ".wp-caption" ).each(function() {
+    link = $( this ).find('a').attr('href');
 
-        caption = $( this ).find('.wp-caption-text').html();
-        $( this ).find('.wp-caption-text').html('<a href="' + link + '">' + caption + '</a>')
-        console.log("moved link: " + link)
-    });
+    caption = $( this ).find('.wp-caption-text').html();
+    $( this ).find('.wp-caption-text').html('<a href="' + link + '">' + caption + '</a>')
+    console.log("moved link: " + link)
 });
