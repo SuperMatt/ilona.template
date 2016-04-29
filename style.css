@@ -24,6 +24,10 @@ a.title:hover {
     text-decoration: none;
 }
 
+a {
+    color: #76b498;
+}
+
 p {
     color: #333;
     font-family: Muli, sans-serif;
@@ -152,6 +156,16 @@ li.current-menu-item {
         text-align: center;
         line-height: 1;
     }
+}
+
+@media (max-width: 768px) {
+
+    .imggrid .wp-caption .wp-caption-text a {
+        width: 100%
+        font-size: 24px;
+        text-align: center;
+    }
+
 }
 
 .imggrid .wp-caption .wp-caption-text a:hover {
