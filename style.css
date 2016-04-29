@@ -113,28 +113,28 @@ li.current-menu-item {
     max-width: 100%;
 }
 
-.igallery .wp-caption .wp-caption-text {
-    position: absolute;
-    top: 0px;
-    height: calc(100% - 20px);
-    width: calc(100% - 30px);
-    /*background-color: rgba(178,223,219,0.9);*/
-    background-color: rgba(118,180,152,0.8);
-    opacity: 0;
-    left: 15px;
-    color: #fff;
-    text-align: center;
-    padding-top: calc(50% - 64px);
-    font-size: 24px;
-    font-family: "Muli";
-    margin-top: 10px;
-  }
-
-.igallery .wp-caption .wp-caption-text:hover {
-    opacity: 1;
-}
-
 @media (min-width: 768px) {
+
+    .igallery .wp-caption .wp-caption-text {
+        position: absolute;
+        top: 0px;
+        height: calc(100% - 20px);
+        width: calc(100% - 30px);
+        /*background-color: rgba(178,223,219,0.9);*/
+        background-color: rgba(118,180,152,0.8);
+        opacity: 0;
+        left: 15px;
+        color: #fff;
+        text-align: center;
+        padding-top: calc(50% - 64px);
+        font-size: 24px;
+        font-family: "Muli";
+        margin-top: 10px;
+      }
+
+    .igallery .wp-caption .wp-caption-text:hover {
+        opacity: 1;
+    }
 
     .imggrid .wp-caption {
         max-width: 100%;
