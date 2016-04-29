@@ -167,7 +167,8 @@ li.current-menu-item {
         text-align: center;
         padding-top: 10px;
         padding-bottom: 10px;
-        background-color: #76b498
+        background-color: #76b498;
+        margin-right: 10px;
     }
 
     .imggrid .wp-caption .wp-caption-text a {
