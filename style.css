@@ -134,13 +134,13 @@ li.current-menu-item {
     opacity: 1;
 }
 
-.imggrid .wp-caption {
-    max-width: 100%;
-    position: relative;
-    display: block;
-}
-
 @media (min-width: 768px) {
+
+    .imggrid .wp-caption {
+        max-width: 100%;
+        position: relative;
+        display: block;
+    }
 
     .imggrid .wp-caption .wp-caption-text a {
         position: absolute;
