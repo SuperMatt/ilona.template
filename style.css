@@ -162,8 +162,6 @@ li.current-menu-item {
 
     .imggrid .wp-caption {
         max-width: 100%;
-        position: relative;
-        display: block;
     }
 
     .imggrid .wp-caption .wp-caption-text {
@@ -187,8 +185,6 @@ li.current-menu-item {
 @media (max-width: 429px) and (max-width: 767px) {
     .imggrid .wp-caption {
         max-width: 100%;
-        position: relative;
-        display: block;
     }
 
     .imggrid .wp-caption .wp-caption-text {
