@@ -116,7 +116,7 @@ li.current-menu-item {
 @media (min-width: 768px) {
 
     .no-overlay {
-        margin-bottom: 10px;
+        margin-bottom: 30px;
     }
 
     .igallery .wp-caption .wp-caption-text {
