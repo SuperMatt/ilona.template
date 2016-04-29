@@ -20,6 +20,7 @@ $(".wp-caption-text").each(function() {
 });
 
 $( ".wp-caption" ).each(function() {
+    $(this).removeAttr('style');
     link = $( this ).find('a').attr('href');
 
     caption = $( this ).find('.wp-caption-text').html();
