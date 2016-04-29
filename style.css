@@ -161,7 +161,11 @@ li.current-menu-item {
 @media (min-width: 430px) and (max-width: 767px) {
 
     .imggrid .wp-caption {
-        max-width: 100%;
+        width: 100%;
+    }
+
+    .wp-caption img {
+        width: 100%;
     }
 
     .imggrid .wp-caption .wp-caption-text {
@@ -171,7 +175,6 @@ li.current-menu-item {
         padding-top: 10px;
         padding-bottom: 10px;
         background-color: rgba(118,180,152,0.8);
-        margin-right: 10px;
 
 
     }
@@ -180,26 +183,6 @@ li.current-menu-item {
         color: #FFF;
     }
 
-}
-
-@media (max-width: 429px) and (max-width: 767px) {
-    .imggrid .wp-caption {
-        max-width: 100%;
-    }
-
-    .imggrid .wp-caption .wp-caption-text {
-        max-width: 100%;
-        font-size: 24px;
-        text-align: center;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        background-color: #76b498;
-
-    }
-
-    .imggrid .wp-caption .wp-caption-text a {
-        color: #FFF;
-    }
 }
 
 
