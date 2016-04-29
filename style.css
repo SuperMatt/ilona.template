@@ -172,9 +172,8 @@ li.current-menu-item {
         text-align: center;
         padding-top: 10px;
         padding-bottom: 10px;
-        background-color: #76b498;
-        right: 0px;
-        left: 0px;
+        background-color: rgba(118,180,152,0.8);
+        margin-right: 10px;
 
 
     }
