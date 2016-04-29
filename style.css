@@ -137,7 +137,7 @@ li.current-menu-item {
     }
 
     .imggrid .wp-caption {
-        width: 100%
+        width: 100%;
         /*
         max-width: 100%;
         position: relative;
