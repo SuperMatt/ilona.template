@@ -170,6 +170,7 @@ li.current-menu-item {
         padding-bottom: 10px;
         background-color: #76b498;
         right: 10px;
+        left: 10px;
     }
 
     .imggrid .wp-caption .wp-caption-text a {
