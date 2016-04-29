@@ -155,8 +155,8 @@ li.current-menu-item {
         font-size: 24px;
         text-align: center;
         line-height: 26px;
-        padding-left: 10px;
-        padding-right: 10px;
+        /*padding-left: 10px;
+        padding-right: 10px; */
     }
 }
 
