@@ -17,7 +17,7 @@ h1.title {
     /*font-variant: small-caps;*/
     font-weight: 400;
     /*text-transform: lowercase;*/
-    margin-bottom: 2px;
+    margin-bottom: 5px;
 }
 
 a.title:hover {
