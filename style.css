@@ -14,9 +14,9 @@ h1 {
 h1.title {
     font-size: 36pt;
     color: #333;
-    font-variant: small-caps;
+    /*font-variant: small-caps;*/
     font-weight: 400;
-    text-transform: lowercase;
+    /*text-transform: lowercase;*/
     margin-bottom: 0px;
 }
 
