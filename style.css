@@ -167,13 +167,13 @@ li.current-menu-item {
     }
 
     .imggrid .wp-caption .wp-caption-text {
-        position:relative;
+        max-width:100%;
         font-size: 24px;
         text-align: center;
         padding-top: 10px;
         padding-bottom: 10px;
         background-color: #76b498;
-        left: 0px;
+
     }
 
     .imggrid .wp-caption .wp-caption-text a {
