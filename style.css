@@ -137,9 +137,12 @@ li.current-menu-item {
     }
 
     .imggrid .wp-caption {
+        width: 100%
+        /*
         max-width: 100%;
         position: relative;
         display: block;
+        */
     }
 
     .imggrid .wp-caption .wp-caption-text a {
@@ -155,8 +158,8 @@ li.current-menu-item {
         font-size: 24px;
         text-align: center;
         line-height: 26px;
-        /*padding-left: 10px;
-        padding-right: 10px; */
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 
