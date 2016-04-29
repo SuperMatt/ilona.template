@@ -158,7 +158,7 @@ li.current-menu-item {
     }
 }
 
-@media (min-width: 430px) and (max-width: 767px) {
+@media (max-width: 767px) {
 
     .imggrid .wp-caption {
         width: 100%;
