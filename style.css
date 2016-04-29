@@ -17,7 +17,7 @@ h1.title {
     /*font-variant: small-caps;*/
     font-weight: 400;
     /*text-transform: lowercase;*/
-    margin-bottom: 5px;
+    margin-bottom: 0px;
 }
 
 a.title:hover {
@@ -66,6 +66,7 @@ p {
     padding-right: 0px;
     margin-left: 5px;
     margin-right: 5px;
+    margin-bottom: -5px;
 }
 
 .list-inline li a {
