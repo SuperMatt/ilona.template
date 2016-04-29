@@ -115,6 +115,10 @@ li.current-menu-item {
 
 @media (min-width: 768px) {
 
+    .no-overlay {
+        margin-top: 10px;
+    }
+
     .igallery .wp-caption .wp-caption-text {
         position: absolute;
         top: 0px;
