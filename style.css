@@ -194,6 +194,7 @@ li.current-menu-item {
         padding-bottom: 10px;
         background-color: rgb(128,203,196);
         min-height: 0px;
+        width: 100%;
     }
 
     .imggrid .wp-caption .wp-caption-text a {
