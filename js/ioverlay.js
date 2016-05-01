@@ -28,7 +28,7 @@ $( ".wp-caption" ).each(function() {
     console.log("moved link: " + link)
 });
 
-
+/*
 $(".overlay").each(function() {
     if ( $(this).parent().is('p')) {
         imgTag = $(this).partent().html()
@@ -42,3 +42,5 @@ $(".no-overlay").each(function() {
         $(this).parent().parent().html(imgTag)
     }
 })
+
+*/

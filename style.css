@@ -201,6 +201,10 @@ li.current-menu-item {
 
 }
 
+.imggrid p {
+    width: 100%;
+}
+
 
 .imggrid .wp-caption .wp-caption-text a:hover {
     opacity: 1;
