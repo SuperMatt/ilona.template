@@ -5,7 +5,7 @@ $templatedirectory = get_template_directory_uri();
 
 <html>
   <head>
-    <link rel="icon" type="image/jpeg" href="<?php echo $templatedirectory ?>/image.png" />
+    <link rel="icon" type="image/jpeg" href="<?php echo $templatedirectory ?>/images/thumbnail.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Muli:400,300|Playfair+Display' rel='stylesheet' type='text/css'>
     <script src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
