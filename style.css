@@ -186,7 +186,7 @@ li.current-menu-item {
         width: 100%;
     }
 
-    .imggrid .wp-caption .wp-caption-text {
+    .imggrid .wp-caption .wp-caption-text a {
         max-width: 100%;
         font-size: 24px;
         text-align: center;
@@ -194,9 +194,6 @@ li.current-menu-item {
         padding-bottom: 10px;
         background-color: rgb(128,203,196);
         min-height: 0px;
-        height: 0px;
-
-
     }
 
     .imggrid .wp-caption .wp-caption-text a {
