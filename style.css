@@ -201,9 +201,12 @@ li.current-menu-item {
 
 }
 
-.imggrid p {
+.imggrid p img.img-reponsive {
+    position: relative;
     width: 100%;
-    display: block;
+    left: 0;
+    right: 0;
+
 }
 
 
