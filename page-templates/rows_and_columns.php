@@ -81,6 +81,9 @@ $templatedirectory = get_template_directory_uri();
 
 <!-- <script src="<?php echo get_template_directory_uri() ?>/js/icarousel.js"></script> -->
 <script src="<?php echo get_template_directory_uri() ?>/js/ilightbox.js"></script>
+<?php
+if (the_field('carousel')) {
+?>
 <link rel="stylesheet" href="<?php echo $templatedirectory ?>/css/lightbox.css">
 <script src="<?php echo $templatedirectory ?>/js/lightbox.js"></script>
 
@@ -110,3 +113,7 @@ lightbox.option({
     font-weight: 300;
 }
 </style>
+
+<?php
+}
+?>
