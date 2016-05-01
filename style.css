@@ -203,6 +203,7 @@ li.current-menu-item {
 
 .imggrid p {
     width: 100%;
+    display: block;
 }
 
 
