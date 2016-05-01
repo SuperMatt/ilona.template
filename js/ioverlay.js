@@ -27,3 +27,9 @@ $( ".wp-caption" ).each(function() {
     $( this ).find('.wp-caption-text').html('<a href="' + link + '">' + caption + '</a>')
     console.log("moved link: " + link)
 });
+
+$(".imggrid").each(function() {
+    $(this).find('div').each( function() {
+        $(this).removeAttr('style');
+    })
+})
