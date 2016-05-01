@@ -193,6 +193,7 @@ li.current-menu-item {
         padding-top: 10px;
         padding-bottom: 10px;
         background-color: rgb(128,203,196);
+        height:0px;
 
 
     }
