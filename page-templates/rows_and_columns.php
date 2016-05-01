@@ -81,7 +81,7 @@ $templatedirectory = get_template_directory_uri();
 
 <!-- <script src="<?php echo get_template_directory_uri() ?>/js/icarousel.js"></script> -->
 <?php
-if (the_field('carousel')) {
+if (get_field('carousel')) {
 ?>
 <script src="<?php echo get_template_directory_uri() ?>/js/ilightbox.js"></script>
 <link rel="stylesheet" href="<?php echo $templatedirectory ?>/css/lightbox.css">
