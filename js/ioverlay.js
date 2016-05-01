@@ -28,8 +28,12 @@ $( ".wp-caption" ).each(function() {
     console.log("moved link: " + link)
 });
 
+
+/*
 $(".imggrid").each(function() {
     $(this).find('div').each( function() {
         $(this).removeAttr('style');
     })
 })
+
+*/

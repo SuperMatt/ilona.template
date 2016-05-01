@@ -117,6 +117,7 @@ li.current-menu-item {
 
     .no-overlay {
         margin-bottom: 30px;
+        width: 100%;
     }
 
     .homepagetext {
@@ -265,7 +266,7 @@ li.current-menu-item {
     text-align: center;
     padding-bottom: 0px;
     margin-bottom: 0px;
-    
+
 }
 
 .closebutton {
