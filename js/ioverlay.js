@@ -29,11 +29,16 @@ $( ".wp-caption" ).each(function() {
 });
 
 
-/*
-$(".imggrid").each(function() {
-    $(this).find('div').each( function() {
-        $(this).removeAttr('style');
-    })
+$(".overlay").each(function() {
+    if ( $(this).parent().is('p')) {
+        imgTag = $(this).partent().html()
+        $(this).parent().parent().html(imgTag)
+    }
 })
 
-*/
+$(".no-overlay").each(function() {
+    if ( $(this).parent().is('p')) {
+        imgTag = $(this).partent().html()
+        $(this).parent().parent().html(imgTag)
+    }
+})
