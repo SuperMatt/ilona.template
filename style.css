@@ -292,7 +292,7 @@ li.current-menu-item {
 .title {
     font-family: 'Playfair Display';
     font-size: 14pt;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 @media (max-width: 767px) {
