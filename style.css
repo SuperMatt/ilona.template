@@ -289,6 +289,12 @@ li.current-menu-item {
     font-family: 'Playfair Display';
 }
 
+.title {
+    font-family: 'Playfair Display';
+    font-size: 10pt;
+    font-weight: 400;
+}
+
 @media (max-width: 767px) {
     .bigtext {
         font-size: 75px;
