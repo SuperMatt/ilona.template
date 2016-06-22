@@ -16,14 +16,14 @@
 $(".wp-caption-text").each(function() {
     if ($(this).text() == "null") {
         $(this).text('');
-        $(this).remove();
+        /*$(this).remove();*/
     }
 });
 
 $( ".wp-caption" ).each(function() {
     $(this).removeAttr('style');
     link = $( this ).find('a').attr('href');
-nu
+
     caption = $( this ).find('.wp-caption-text').html();
     $( this ).find('.wp-caption-text').html('<a href="' + link + '">' + caption + '</a>')
     console.log("moved link: " + link)
