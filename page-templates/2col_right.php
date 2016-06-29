@@ -1,4 +1,4 @@
-<?php /* Template Name:  2 Col Right */ ?>
+<?php /* Template Name:  Right Col, width: 2 */ ?>
 
 
 <?php
