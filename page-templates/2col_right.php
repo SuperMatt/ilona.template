@@ -5,8 +5,11 @@
     get_header();
 ?>
       <div class="row main">
-      <div class="col-sm-8 col-sm-offset-4 col-xs-12 imggrid">
+      <div class="col-sm-4 col-xs-12 imggrid">
         <?php the_field('row1_col1'); ?>
+      </div>
+      <div class="col-sm-8 col-xs-12 imggrid">
+        <?php the_field('row1_col2'); ?>
       </div>
       </div>
 
