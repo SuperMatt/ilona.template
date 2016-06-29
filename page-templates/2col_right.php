@@ -12,6 +12,30 @@
         <?php the_field('row1_col2'); ?>
       </div>
       </div>
+      <div class="row main">
+      <div class="col-sm-4 col-xs-12 imggrid">
+        <?php the_field('row2_col1'); ?>
+      </div>
+      <div class="col-sm-8 col-xs-12 imggrid">
+        <?php the_field('row2_col2'); ?>
+      </div>
+      </div>
+      <div class="row main">
+      <div class="col-sm-4 col-xs-12 imggrid">
+        <?php the_field('row3_col1'); ?>
+      </div>
+      <div class="col-sm-8 col-xs-12 imggrid">
+        <?php the_field('row3_col2'); ?>
+      </div>
+      </div>
+      <div class="row main">
+      <div class="col-sm-4 col-xs-12 imggrid">
+        <?php the_field('row4_col1'); ?>
+      </div>
+      <div class="col-sm-8 col-xs-12 imggrid">
+        <?php the_field('row4_col2'); ?>
+      </div>
+      </div>
 
 <?php
     if ( have_posts() ) : while ( have_posts() ) : the_post();
